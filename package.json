@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Instantaneous requests per second for Elastic Load Balancers",
   "main": "index.js",
+  "preferGlobal": true,
   "bin": {
     "rps": "rps.js"
   },
