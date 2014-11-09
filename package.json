@@ -1,0 +1,30 @@
+{
+  "name": "rps",
+  "version": "1.0.0",
+  "description": "Instantaneous requests per second for Elastic Load Balancers",
+  "main": "index.js",
+  "bin": {
+    "rps": "rps.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robinjmurphy/rps.git"
+  },
+  "keywords": [
+    "elb",
+    "aws",
+    "cloudwatch",
+    "requests",
+    "per",
+    "second"
+  ],
+  "author": "robin@robinmurphy.co.uk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robinjmurphy/rps/issues"
+  },
+  "homepage": "https://github.com/robinjmurphy/rps",
+  "dependencies": {
+    "aws-sdk": "^2.0.25"
+  }
+}
